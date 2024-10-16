@@ -1,0 +1,15 @@
+.socials-title{
+    text-align: center;
+
+}
+.social-icons {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-icon:hover{
+    transform: scale(1.25);
+        transition: 0.3s;
+}
