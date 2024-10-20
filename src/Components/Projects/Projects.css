@@ -1,45 +1,25 @@
 .myprojects-container {
     display: flex;
-    /* Enables flexbox */
     justify-content:space-around;
-    /* Adds space between each project card */
     flex-wrap: wrap;
-    /* Ensures that the cards wrap to the next line if the screen is too small */
     gap: 20px;
-    /* Optional: Adds additional space between cards */
     padding: 30px;
 }
 
 .project-card {
     width: 300px;
-    /* Fix the width of each project card */
     background-color: #e68049;
-    /* Optional: Adds a background color to the project card */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    /* Centers text inside each card */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Optional: Adds a subtle shadow to cards */
 }
 
 .project-image {
     width: 100%;
-    /* Makes the image take the full width of the project card */
     height: auto;
-    /* Maintains the aspect ratio */
     border-radius: 10px;
-    /* Rounded corners for the image */
 }
-
-/* .projects{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-    margin: 100px 180px;
-} */
 
 .myprojects-title h1{
     padding-top: 80px;

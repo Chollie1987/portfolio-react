@@ -6,6 +6,8 @@ import Socials from './Components/Socials/Socials'
 import Contact from './Components/Contact/Contact'
 import Projects from './Components/Projects/Projects'
 
+
+
 const App = () => {
   return (
     <div>
@@ -13,11 +15,13 @@ const App = () => {
       <Hero/>
       <About/>
       <Projects/>
-      <Socials/>
       <Contact/>
+      <Socials/>
+  
 
     </div>
   )
 }
+
 
 export default App

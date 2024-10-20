@@ -6,7 +6,7 @@ import portfolioData from '../../assets/portfolioData'
 
 const Projects = () => {
     return (
-        <div className='projects'>
+        <div id='projects' className='projects'>
             <div className='myprojects-title'>
                 <h1>My Latest Projects</h1>
             </div>
